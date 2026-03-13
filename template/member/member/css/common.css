@@ -1,0 +1,592 @@
+@charset "UTF-8";
+#member_net #header {
+  height: 115px;
+}
+#member_net .header {
+  font-size: initial;
+}
+#member_net .header__netbtn a {
+  align-items: center;
+  background: #e75400;
+  border: 1px solid #e75400;
+  border-radius: 3px;
+  color: #FFF;
+  display: flex;
+  font-size: 12px;
+  font-weight: bold;
+  height: 26px;
+  margin-right: 15px;
+  padding: 0 13px;
+}
+
+/*2024年03月ツール発注 追加*/
+#member_net .header__netbtn.toolcart a {
+  background: #FFF;
+  color: #e75400;
+}
+#member_net .header__netbtn.toolcart a:before {
+  background: url(/images/member/tool-order.png) no-repeat;
+  background-size: contain;
+  content: '';
+  display: block;
+  height: 18px;
+  margin-right: 3px;
+  width: 22px;
+}
+/*2024年03月ツール発注 ここまで*/
+#member_net .header__netbtn.mlmg a {
+  background: #FFF;
+  color: #e75400;
+}
+#member_net .header__netbtn.mlmg a:before {
+  background: url(/images/member/mail-magazine.png) no-repeat;
+  background-size: contain;
+  content: '';
+  display: block;
+  height: 18px;
+  margin-right: 3px;
+  width: 22px;
+}
+#member_net .header__nav {
+  width: 320px;
+}
+#member_net .header__nav-name.no_icon:before {
+  display: none;
+}
+#member_net .header__nav-name.tool-menu:before {
+  background: url(/images/tool_icon.png) no-repeat;
+  background-size: contain;
+  content: '';
+  display: block;
+  height: 28px;
+  margin-right: 5px;
+  width: 28px;
+}
+#member_net .header__nav-name.seminar:before {
+  background: url(/images/seminar.png) no-repeat;
+  background-size: contain;
+  content: '';
+  display: block;
+  height: 19px;
+  margin-right: 5px;
+  width: 28px;
+}
+#member_net .header__nav-name.data-menu:before {
+  background: url(/images/data_icon.png) no-repeat;
+  background-size: contain;
+  content: '';
+  display: block;
+  height: 23px;
+  margin-right: 5px;
+  width: 23px;
+}
+#member_net .header__nav-subname {
+  border-bottom: 1px solid #FFF;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+#member_net .header__nav-pointlist li {
+  display: flex;
+}
+#member_net .header__nav-pointlist li:before {
+  content: '・';
+}
+#member_net .header__nav-box {
+  letter-spacing: -.5px;
+}
+#member_net .header__nav-box ul {
+  margin-top: 10px;
+}
+#member_net .header__nav-box ul + .header__nav-subname {
+  margin-top: 13px;
+}
+#member_net .header__nav-box li {
+  border: none;
+  line-height: 1.5;
+}
+#member_net .header__nav-box li + li {
+  margin-top: 3px;
+}
+#member_net .header__nav-box.nav-sprt li {
+  padding: 0 5%;
+}
+#member_net .header__nav-box.nav-sprt li + li {
+  margin-top: 13px;
+}
+/*2024年03月ツール発注 ハンバーガーメニュー 追加*/
+#member_net .header__navbtn-box{
+  margin: 20px 0;
+}
+#member_net li.header__navbtn{
+  margin-bottom: 20px;
+  padding: 0 5%;
+}
+#member_net .header__navbtn a{
+  border:  1px solid #D55E26;
+  background-color: #FFF;
+  padding: 10px 0;
+  width: 100%;
+  position: relative;
+}
+
+#member_net .header__navbtn a:visited{
+  color: #E95D00;
+}
+
+
+#member_net .header__navbtn .contact-tool, #member_net .header__navbtn .contact-mlmg{
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #E95D00;
+}
+
+.contact-mlmg::before{
+  content: '';
+  background: url(/images/member/mail-magazine.png) no-repeat;
+  background-size: contain;
+    content: '';
+    display: block;
+    height: 30px;
+    margin: 5px 5px 0 0;
+    width: 30px;
+}
+
+.contact-mlmg::after{
+  content: '>';
+  position: absolute;
+  right: 0.8em;
+}
+
+.contact-tool::before{
+  content: '';
+  background: url(/images/member/tool-order.png) no-repeat;
+  background-size: contain;
+    content: '';
+    display: block;
+    height: 30px;
+    margin: 5px 10px 0 0;
+    width: 30px;
+}
+
+.contact-tool::after{
+  content: '>';
+  position: absolute;
+  right: 0.8em;
+}
+/*2024年03月ツール発注 ハンバーガーメニュー ここまで*/
+#member_net .header__bottom {
+  padding: 0;
+}
+#member_net .header__bottom-menu {
+  color: #333;
+  font-size: 14px;
+}
+#member_net .header__bottom-menu li {
+  position: relative;
+}
+#member_net .header__bottom-home a {
+  display: block;
+  padding: 10px;
+}
+#member_net .header__bottom-mttl {
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  padding: 10px 32px;
+}
+#member_net .header__bottom-dttl {
+  background: #FFF;
+  color: #333;
+  font-size: 13px;
+  font-weight: normal;
+  font-weight: bold;
+  margin-bottom: .5em;
+  padding: 5px;
+}
+#member_net .header__bottom-dlist {
+  display: block;
+}
+#member_net .header__bottom-dlist + .header__bottom-dttl {
+  margin-top: 25px;
+}
+#member_net .header__bottom-dlist li {
+  height: auto;
+}
+#member_net .header__bottom-dlist li + li {
+  margin-top: .4em;
+}
+#member_net .header__bottom-ditem + .header__bottom-ditem {
+  margin-left: 3%;
+}
+#member_net .header__bottom-ditem.w25 {
+  width: 25%;
+}
+#member_net .header__bottom-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#member_net .header__bottom-drop {
+  background: #707070;
+  color: #FFF;
+  display: none;
+  left: 0;
+  padding: 20px;
+  position: absolute;
+  top: 40px;
+}
+#member_net .header__bottom-drop a {
+  color: #FFF;
+  display: block;
+  display: flex;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+#member_net .header__bottom-drop a:before {
+  content: '・';
+}
+#member_net .header__bottom-drop a:hover {
+  opacity: .6;
+}
+#member_net .header__bottom-drop a.nonelink {
+  opacity: .6;
+  pointer-events: none;
+}
+#member_net .header__bottom-drop.gnav_feature {
+  width: 350px;
+}
+#member_net .header__bottom-drop.gnav_data {
+  width: 260px;
+}
+#member_net .header__bottom-drop.gnav_policy {
+  width: 320px;
+}
+#member_net .header__bottom-drop.gnav_tool {
+  width: 650px;
+}
+#member_net .header__bottom-drop.gnav_seminar {
+  width: 230px;
+}
+#member_net .header__bottom-drop.gnav_support {
+  width: 210px;
+}
+#member_net .footer {
+  background: #f4f4f4;
+  padding-top: 0;
+}
+#member_net .footer__menu {
+  background: #f5ece9;
+  padding: 30px 0 20px;
+}
+#member_net .footer__list {
+  justify-content: space-around;
+  letter-spacing: -.5px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#member_net .footer__item {
+  color: #333;
+}
+#member_net .footer__item a {
+  color: #333;
+}
+#member_net .footer__item a:hover {
+  color: #E75400;
+}
+#member_net .footer__item:nth-of-type(1) {
+  width: 15%;
+}
+#member_net .footer__item:nth-of-type(2) {
+  width: 22%;
+}
+#member_net .footer__item ul + .footer__item-name {
+  margin-top: 30px;
+}
+#member_net .footer__bottom, #member_net .footer__copy {
+  color: #666;
+}
+#member_net .footer__bottom a, #member_net .footer__copy a {
+  color: #666;
+}
+#member_net .footer__bottom a:hover, #member_net .footer__copy a:hover {
+  color: #E75400;
+}
+#member_net .footer__logo {
+  padding: 20px 0;
+}
+#member_net .footer__logo .inner {
+  position: relative;
+}
+#member_net .footer__tm {
+  margin: 30px auto 0;
+  position: static;
+}
+#member_net .relation {
+  background: #f4f4f4;
+  color: #333;
+  padding: 30px 0 20px;
+}
+#member_net .relation .inner {
+  position: relative;
+}
+#member_net .relation__ttl {
+  border-bottom: #000 solid 1px;
+  display: flex;
+  font-size: 21px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+#member_net .relation__ttl:before {
+  background: url(/images/member/relation-icon.png) no-repeat;
+  background-size: contain;
+  content: '';
+  display: block;
+  height: 27px;
+  margin-right: 10px;
+  width: 27px;
+}
+#member_net .relation ul {
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: -.5px;
+  margin: 25px auto 0;
+  width: 90%;
+}
+#member_net .relation li {
+  font-size: 11px;
+  line-height: 1.8;
+  padding: 15px 22px;
+  text-align: center;
+}
+#member_net .relation li a {
+  color: #333;
+}
+#member_net .relation li a:hover {
+  color: #e75400;
+}
+#member_net .relation li span {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+}
+#member_net .relation li + li {
+  border-left: 1px solid #000;
+}
+#member_net .breadcrumb {
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "MS Pゴシック", "MS PGothic", sans-serif;
+  padding-bottom: 10px;
+}
+#member_net .fixed_contact__close {
+  cursor: pointer;
+  left: 20px;
+  max-width: 25px;
+  position: absolute;
+  top: 20px;
+}
+#member_net .fixed_contact__btn {
+  background: #f26704;
+  color: #FFF;
+  display: block;
+  font-size: 20px;
+  padding: 15px 0;
+  text-align: center;
+  width: 48%;
+}
+#member_net .fixed_contact__btn.blue {
+  background: #0066cc;
+}
+#member_net .fixed_contact__btnlist {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 10px 0;
+  width: 55%;
+}
+#member_net .contact {
+  background: #FFF;
+}
+#member_net .contact .ttl--contact:before {
+  background: url(/images/top/contact_icon.png) no-repeat;
+  background-size: contain;
+}
+#member_net .contact__btn {
+  color: #FFF;
+}
+#member_net .contact__btn:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+#header a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+#header a:visited {
+  color: #FFF;
+  opacity: .8;
+  text-decoration: none;
+}
+#header a:hover {
+  color: #FFF;
+  opacity: .8;
+  text-decoration: none;
+}
+#header img {
+  vertical-align: baseline;
+}
+
+@media screen and (max-width: 767px) {
+  #member_net #header {
+    height: 67px;
+  }
+  /*2024年03月ツール発注 変更*/
+  #member_net .header__netbtn a {
+    font-size: 3.2vw;
+    height: 8vw;
+    /* padding: 0 4vw; */
+    width: 8vw;
+    border-radius: 50%;
+    padding: 0.5vw 0.5vw 0.5vw 0.8vw;
+  }
+  /*2024年03月ツール発注 追加*/
+  #member_net .header__netbtn.toolcart a:before {
+    height: 5.33333vw;
+    width: 9vw;
+    margin-top: 1.5vw;
+  }
+  
+  #member_net .header__netbtn.mlmg a:before {
+    height: 5.33333vw;
+    width: 6vw;
+    margin-top: 1vw;
+  }
+  /*2024年03月ツール発注 ここまで*/
+  #member_net .header__nav {
+    width: 100%;
+  }
+  /*2024年03月ツール発注 ハンバーガーメニュー 追加 */
+  #member_net .header__navbtn a{
+    font-size: 4vw;
+  }
+  #member_net .header__navbtn .contact-tool, #member_net .header__navbtn .contact-mlmg{
+    font-size: 4.3vw;
+  }
+  
+  #member_net .header__navbtn .contact-mlmg{
+    font-size: 4.3vw;
+  }
+  .contact-mlmg::before{
+      height: 8vw;
+      margin: 10px 5px 0 0;
+      width: 8vw;
+  }
+  
+  .contact-mlmg::after{
+    right: 0.8em;
+  }
+  
+  .contact-tool::before{
+      height: 8vw;
+      margin: 10px 10px 0 0;
+      width: 8vw;
+  }
+  
+  .contact-tool::after{
+    right: 0.8em;
+  }
+  /* 2024年03月ツール発注 ハンバーガーメニュー ここまで */
+  #member_net .footer__other {
+    margin-top: 6.66667vw;
+  }
+  #member_net .footer__menu {
+    display: none;
+  }
+  #member_net .footer__copy {
+    background: none;
+    border-top: solid 1px #666666;
+    color: #666;
+  }
+  #member_net .footer__tm {
+    margin-top: 8vw;
+  }
+  #member_net .relation {
+    padding: 6.66667vw 0;
+  }
+  #member_net .relation {
+    background: #f5f9fc;
+  }
+  #member_net .relation__ttl {
+    font-size: 4.8vw;
+    font-weight: normal;
+    justify-content: center;
+    margin: auto;
+    width: 66vw;
+  }
+  #member_net .relation__ttl:before {
+    display: none;
+  }
+  #member_net .relation ul {
+    display: block;
+  }
+  #member_net .relation li {
+    font-size: 4vw;
+    padding: 0;
+  }
+  #member_net .relation li span {
+    font-size: 5.6vw;
+  }
+  #member_net .relation li + li {
+    border: none;
+    margin-top: 8vw;
+  }
+  #member_net .fixed_contact__close {
+    position: static;
+    width: 5.33333vw;
+  }
+  #member_net .fixed_contact__btn {
+    font-size: 3.2vw;
+    padding: 3.33333vw 0;
+    width: 44%;
+  }
+  #member_net .fixed_contact__btnlist {
+    align-items: center;
+    padding: 2vw 0;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  #member_net .header__bottom-mttl {
+    padding: 10px 1.81818vw;
+  }
+  #member_net .header__bottom-dttl {
+    font-size: .92vw;
+    margin-bottom: 1vw;
+  }
+  #member_net .header__bottom-ditem {
+    margin-bottom: 25px;
+  }
+  #member_net .header__bottom-ditem + .header__bottom-ditem {
+    margin-left: 0;
+  }
+  #member_net .header__bottom-flex {
+    justify-content: space-between;
+  }
+  #member_net .header__bottom-drop a {
+    font-size: 1vw;
+  }
+  #member_net .header__bottom-drop.gnav_tool {
+    width: 48vw;
+  }
+  #member_net .header__bottom-drop.gnav_tool .header__bottom-ditem {
+    width: 31%;
+  }
+  #member_net .header__bottom-drop.gnav_support {
+    left: -2vw;
+    width: 17vw;
+  }
+}
