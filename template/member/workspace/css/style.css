@@ -1285,7 +1285,7 @@
 .section__comparison__message__img {
   position: absolute;
   top: 3px;
-  right: 2.58%;
+  right: -6px;
 }
 @media (max-width: 1024px) {
   .section__comparison__message__img {

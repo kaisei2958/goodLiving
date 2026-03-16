@@ -1206,7 +1206,7 @@ $text-gray: #5A5A55;
         &__img {
             position: absolute;
             top: 3px;
-            right: 2.58%;
+            right: -6px;
 
             @include tablet {
                 top: 15px;
