@@ -1229,10 +1229,6 @@ $text-gray: #5A5A55;
             @include sp {
                 font-size: 1.4rem;
                 line-height: 180%;
-                text-align: left;
-                br {
-                    display: none;
-                }
             }
             strong {
                 color: $yellow;

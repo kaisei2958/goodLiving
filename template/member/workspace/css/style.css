@@ -1312,10 +1312,6 @@
   .section__comparison__message__txt {
     font-size: 1.4rem;
     line-height: 180%;
-    text-align: left;
-  }
-  .section__comparison__message__txt br {
-    display: none;
   }
 }
 .section__comparison__message__txt strong {
